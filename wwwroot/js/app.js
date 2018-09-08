@@ -7,5 +7,6 @@ btn.value = "btnvalue";
 btn.onclick = function (e) {
     alert("clientX:" + e.clientX + " clientY" + e.clientY);
 };
-document.appendChild(btn);
+btn.innerText = "button";
+document.getElementById("div").appendChild(btn);
 //# sourceMappingURL=app.js.map

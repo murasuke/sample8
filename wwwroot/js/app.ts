@@ -7,5 +7,7 @@ btn.value="btnvalue";
 btn.onclick = (e)=>{
     alert(`clientX:${e.clientX} clientY${e.clientY}`);
 }
+btn.innerText = "button";
 
-document.appendChild(btn);
+
+document.getElementById("div").appendChild(btn);
